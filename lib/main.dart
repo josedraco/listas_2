@@ -32,15 +32,6 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   int ind;
 
-  _incrementCounter() {
-
-    lugares[ind].favorito=true;
-
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
 
