@@ -12,6 +12,8 @@ class Lugar {
   set fav(bool favorito) => favorito = favorito;
 }
 
+List<String> favoritos =[];
+
 List<Lugar> lugares = [
   Lugar(
       "1",
